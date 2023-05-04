@@ -1,8 +1,8 @@
 package org.yup.accountingledger;
 import java.util.Scanner;
 
-public class Screens {
-    public static String homeScreen() {
+public class HomeScreen {
+    public static String displayHomeScreen() {
 
         Scanner userInput = new Scanner(System.in);
 

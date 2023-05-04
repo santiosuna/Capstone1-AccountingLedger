@@ -1,0 +1,5 @@
+date|time|description|vendor|amount
+2023-05-04 | 10:01:06.541782 | food | job | 235.340000
+2023-05-04 | 10:01:40.025883 | test | payment vendor | -23.450000
+2023-05-04 | 10:20:20 | test | vendor test | 23.450000
+2023-05-04 | 10:21:23 | payment | vendor | -23.45

@@ -1,5 +1,4 @@
 package org.yup.accountingledger;
-
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -11,6 +10,7 @@ public class Transaction {
     private double amount;
     private boolean isDebit;
 
+    //constructors
     public Transaction(LocalDate today, LocalTime time, String description, String vendor, double amount, boolean isDebit) {
         this.today = today;
         this.time = time;
@@ -21,6 +21,7 @@ public class Transaction {
 
     }
 
+    //getters and setters
     public LocalDate getToday() {
         return today;
     }
@@ -66,7 +67,7 @@ public class Transaction {
     }
 
     public void setDebit(boolean debit) {
-        isDebit = debit;
-    }
+        this.isDebit = debit;
 
+    }
 }
